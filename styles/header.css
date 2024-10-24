@@ -1,0 +1,35 @@
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  width: 100%;
+  height: 750px;
+  flex-direction: column;
+  background:url(/assets/Background_Intro.png) no-repeat center/cover;
+  img{
+    width: fit-content;
+    height: fit-content;
+  }
+
+  span{
+    color: var(--gray-500);
+    font: var(--subtitle);
+  }
+  strong{
+    color: var(--principal-red);
+  }
+  h1{
+    color: var(--gray-600);
+    font: var(--title-lg);
+  }
+  p{
+    width: 680px;
+    height: 60px;
+    text-align: center;
+    color: var(--gray-400);
+    font: var(--text-sm);
+  
+  }
+}
