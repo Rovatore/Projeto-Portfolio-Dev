@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--gray-200);
+    justify-content: center;
+    align-items: center;
+
+    section{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+          margin: 72px 163px 56px;
+        span{
+          color: var(--principal-red);
+           font: var(--subtitle);
+        } 
+        h1{
+      color: var(--gray-600);
+      font: var(--title-md);
+    }
+    }
+}
+
