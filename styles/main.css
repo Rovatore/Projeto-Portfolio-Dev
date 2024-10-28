@@ -11,7 +11,6 @@ main{
          flex-direction: column;
          justify-content: center;
          align-items: center;
-          margin: 72px 163px 56px;
         span{
           color: var(--principal-red);
            font: var(--subtitle);
@@ -23,3 +22,40 @@ main{
     }
 }
 
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  section{
+    display: flex;
+    gap: 20px;
+    width: 330px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    margin: 24px 50px;
+  }
+    
+
+    #texto-card{
+      text-align: justify;
+      padding: 17px 12px;
+      img{
+      width: 306px;
+      height: 156px;
+      border-radius: 8px;
+     
+    }
+      h2{
+        font: var(--title-sm);
+        color: var(--gray-600);
+      }
+      p{
+        font: var(--text-sm);
+        color: var(--gray-500);
+      }
+    }
+}
