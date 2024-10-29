@@ -12,6 +12,7 @@ main{
          justify-content: center;
          align-items: center;
         span{
+          padding-top: 72px;
           color: var(--principal-red);
            font: var(--subtitle);
         } 
@@ -19,6 +20,7 @@ main{
       color: var(--gray-600);
       font: var(--title-md);
     }
+    
     }
 }
 
@@ -30,6 +32,8 @@ main{
   align-items: center;
 
   width: 100%;
+  padding-bottom: 144px;
+  
   section{
     display: flex;
     gap: 20px;
@@ -38,8 +42,11 @@ main{
     border-radius: 12px;
     margin: 24px 50px;
   }
-    
-
+    section:hover{
+     border: solid 1.5px var(--gray-400);
+  }
+    }
+  
     #texto-card{
       text-align: justify;
       padding: 17px 12px;
@@ -58,4 +65,4 @@ main{
         color: var(--gray-500);
       }
     }
-}
+

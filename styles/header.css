@@ -8,7 +8,7 @@ header{
   height: 750px;
   flex-direction: column;
   background:url(/assets/Background_Intro.png) no-repeat center/cover;
-
+  
   img{
     width: fit-content;
     height: fit-content;
